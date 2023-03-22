@@ -124,8 +124,14 @@ h4 {
 .pricing_column{
     padding: 3% 2%;
 }
-.card, .card-header{
+.card{
     border-color: #EF8172;
+}
+.card-header{
+    border-color: #EF8172;
+    font-family: 'Montserrat';
+    background-color: #EF8172;
+    color: #FFFFFF;
 }
 .btn_pricing1{
     font-family: 'Montserrat';
