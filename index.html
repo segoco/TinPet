@@ -19,6 +19,8 @@
   <!-- FontAwesome -->
   <script src="https://kit.fontawesome.com/716a417028.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles.css">
+  <!-- SiteJs -->
+  <script src="js\index.js"></script>
 </head>
 
 <body>
@@ -32,7 +34,6 @@
           aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarMenu">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -47,8 +48,6 @@
           </ul>
         </div>
       </nav>
-
-
       <!-- Title -->
       <divc class="row">
         <div class="col-lg-6">
@@ -64,14 +63,11 @@
           <img id="iPhoneMock" src="images/iphone6.png" alt="iphone-mockup">
         </div>
     </div>
-
     </div>
-
   </section>
 
 
   <!-- Features -->
-
   <section id="features">
     <div class="row">
       <div class="col-lg-4 col-md-12 feat-box">
@@ -92,18 +88,32 @@
     </div>
   </section>
 
-
   <!-- Testimonials -->
-
   <section id="testimonials">
-
-    <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-    <em>Pebbles, New York</em>
-
-    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-    <em>Beverly, Illinois</em> -->
+    <div id="carouselTestimonials" class="carousel slide" data-bs-ride="true" data-interval="1000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of
+            their
+            life. I think.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
   </section>
 
