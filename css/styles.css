@@ -26,13 +26,6 @@ h4 {
     line-height: 1.5;
 }
 
-#title {
-    background-color: #FF4260;
-    color: #FFFFFF;
-    text-align: left;
-}
-
-
 /* NavigationBAr */
 .navbar {
     padding: 0 0 4.5rem;
@@ -54,9 +47,15 @@ h4 {
     font-size: 1.2rem;
 }
 
-/* Download Buttons */
-.download-button {
-    margin: 5% 3% 5% 0;
+/* Title section */
+#title {
+    background-color: #FF4260;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
 }
 
 /* Title image */
@@ -65,6 +64,11 @@ h4 {
     transform: rotate(25deg);
     position: absolute;
     right: 23%;
+}
+
+/* Download Buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
 }
 
 /* features */
