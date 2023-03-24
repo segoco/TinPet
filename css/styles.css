@@ -5,7 +5,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15% 7%;
+    padding: 7% 15%;
 }
 
 h1,
@@ -71,12 +71,8 @@ h4 {
 #features {
     position: relative;
     background-color: #FFFFFF;
-    padding: 2% 15%;
+    /* padding: 2% 15%; */
     z-index: 1;
-}
-
-.feat-box {
-    padding: 5%;
 }
 
 .feat-icon {
@@ -107,10 +103,6 @@ h4 {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
-}
-
-#carouselTestimonials {
-    padding: 7% 15%;
 }
 
 #press {
@@ -175,7 +167,6 @@ h4 {
 #cta {
     background-color: #FF4C68;
     color: #FFFFFF;
-    padding: 5% 20%;
 }
 
 .cta-text {
@@ -189,7 +180,6 @@ h4 {
 /* Footer */
 #footer {
     background-color: #FFFFFF;
-    padding: 1% 0;
 }
 
 .footer-button {
