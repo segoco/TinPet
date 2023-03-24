@@ -68,11 +68,11 @@ h4 {
 }
 
 /* Title image */
-#iPhoneMock {
-    width: 20%;
-    transform: rotate(25deg);
+.title-image {
     position: absolute;
     right: 23%;
+    width: 20%;
+    transform: rotate(25deg);
 }
 
 /* Download Buttons */
@@ -105,9 +105,9 @@ h4 {
 
 /* Testimonial */
 .testimonial-image {
-    width: 10%;
     border-radius: 100%;
     margin: 20px;
+    width: 10%;
 }
 
 #press {
@@ -115,8 +115,8 @@ h4 {
 }
 
 .press_logo {
-    width: 15%;
     margin: 20px 20px 50px;
+    width: 15%;
 }
 
 /* Pricing */
@@ -142,27 +142,24 @@ h4 {
 }
 
 .card-header {
-    border-color: #EF8172;
-    font-family: 'Montserrat';
     background-color: #EF8172;
+    border-color: #EF8172;
     color: #FFFFFF;
 }
 
-.btn_pricing1 {
-    font-family: 'Montserrat';
-    color: #EF8172;
+.btn-pricing-off {
     border-color: #EF8172;
+    color: #EF8172;
     line-height: 1.5rem;
 }
 
-.btn_pricing2 {
-    font-family: 'Montserrat';
+.btn-pricing-on {
     background-color: #EF8172;
     border: none;
 }
 
-.btn_pricing2:hover,
-.btn_pricing1:hover {
+.btn-pricing-on:hover,
+.btn-pricing-off:hover {
     background-color: #FF4C68;
     border: none;
 }
@@ -187,9 +184,9 @@ h4 {
         text-align: center;
     }
 
-    #iPhoneMock {
-        width: 70%;
+    .title-image {
         position: static;
         transform: rotate(0);
+        width: 70%;
     }
 }
