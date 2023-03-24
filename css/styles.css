@@ -1,40 +1,35 @@
-#title {
-    background-color: #FF4260;
-    /* background-color: #EF8172; */
-    color: #FFFFFF;
-}
-
 body {
     font-family: 'Montserrat';
     font-weight: 300;
+    text-align: center;
 }
 
 .container-fluid {
     padding: 3% 15% 7%;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Montserrat';
     font-weight: 900;
+}
+
+.big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
 }
 
-h2{
-    font-family: 'Montserrat';
-    font-weight: 900;
+.section-heading {
     font-size: 3rem;
-    line-height: 1;
+    line-height: 1.5;
 }
-h3 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 2.5rem;
-}
-h4 {
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 1.5rem;
+
+#title {
+    background-color: #FF4260;
+    color: #FFFFFF;
+    text-align: left;
 }
 
 
@@ -65,7 +60,7 @@ h4 {
 }
 
 /* Title image */
-#iPhoneMock {    
+#iPhoneMock {
     width: 20%;
     transform: rotate(25deg);
     position: absolute;
@@ -82,7 +77,6 @@ h4 {
 
 .feat-box {
     padding: 5%;
-    text-align: center;
 }
 
 .feat-icon {
@@ -95,8 +89,6 @@ h4 {
 }
 
 .feat_title {
-    font-family: 'Montserrat';
-    font-weight: 900;
     font-size: 1.5rem;
 }
 
@@ -105,89 +97,112 @@ h4 {
 }
 
 /* Testimonial */
-#testimonials{
-   text-align: center;
-   background-color: #EF8172;
-   color: #FFFFFF;
+#testimonials {
+    background-color: #EF8172;
+    color: #FFFFFF;
 }
-.testimonial-image{
+
+
+.testimonial-image {
     width: 10%;
     border-radius: 100%;
     margin: 20px;
 }
-#carouselTestimonials{
-    padding: 7% 15%; 
+
+#carouselTestimonials {
+    padding: 7% 15%;
 }
 
-#press{
+#press {
     background-color: #EF8172;
-    text-align: center;
     padding-bottom: 3%;
 }
-.press_logo{
+
+.press_logo {
     width: 15%;
     margin: 20px 20px 50px;
 }
 
 /* Pricing */
-#pricing{
+#pricing {
     padding: 2%;
 }
-.pricing_column{
+
+.pricing_column {
     padding: 3% 2%;
 }
-.card{
+
+.card {
     border-color: #EF8172;
 }
-.card-header{
+
+.pricing-title {
+    font-size: 1.5rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.card-header {
     border-color: #EF8172;
     font-family: 'Montserrat';
     background-color: #EF8172;
     color: #FFFFFF;
 }
-.btn_pricing1{
+
+.btn_pricing1 {
     font-family: 'Montserrat';
     color: #EF8172;
     border-color: #EF8172;
     line-height: 1.5rem;
 }
-.btn_pricing2{
+
+.btn_pricing2 {
     font-family: 'Montserrat';
     background-color: #EF8172;
     border: none;
 }
-.btn_pricing2:hover, .btn_pricing1:hover {
+
+.btn_pricing2:hover,
+.btn_pricing1:hover {
     background-color: #FF4C68;
     border: none;
 }
 
 /* Call to action */
-#cta{
-    text-align: center;
+#cta {
     background-color: #FF4C68;
     color: #FFFFFF;
     padding: 5% 20%;
- }
- .cta-button {
+}
+
+.cta-text {
+    font-size: 2.5rem;
+}
+
+.cta-button {
     margin: 0 1% 1% 0;
 }
- /* Footer */
- #footer{
-    text-align: center;
+
+/* Footer */
+#footer {
     background-color: #FFFFFF;
     padding: 1% 0;
- }
- .footer-button {
+}
+
+.footer-button {
     margin: 20px 10px;
 }
 
 /* MediaQuerys */
-@media (max-width: 1028px){
-    #title{
+@media (max-width: 1028px) {
+    #title {
         text-align: center;
     }
-    
-    #iPhoneMock {    
+
+    #iPhoneMock {
         width: 70%;
         position: static;
         transform: rotate(0);
